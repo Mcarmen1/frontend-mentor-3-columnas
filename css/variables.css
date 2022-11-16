@@ -1,0 +1,13 @@
+:root{
+    --font-size: 15px;
+    --max-width-desktop: 1440px;
+    --max-width-mobile: 375px;
+    --border-radius: 1.5em;
+    --margin-content: 1.5rem 0;
+    --color-primario:  hsl(31, 77%, 52%);/*bright orange*/
+    --color-primario2:  hsl(184, 100%, 22%);/*dark cyan*/
+    --color-primario3:hsl(179, 100%, 13%);/*very dark cyan*/
+    --color-neutral1: hsla(0, 0%, 100%, 0.75);/*transparent white paragraphs*/
+    --color-neutral2: hsl(0, 0%, 95%);/*very light grey background, headings. buttons*/
+    --border-radius1:2rem;
+}

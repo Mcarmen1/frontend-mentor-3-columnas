@@ -1,0 +1,73 @@
+.contenedor1 {
+        background-color: var(--color-primario);
+        border-radius: var(--border-radius1) var(--border-radius1) 0 0;
+}
+
+.contenedor2 {
+        background-color: var(--color-primario2);
+}
+
+.contenedor3 {
+
+        background-color: var(--color-primario3);
+        border-radius: 0 0 var(--border-radius1) var(--border-radius1);
+}
+
+.contenedor {
+        padding: 2rem;
+
+}
+
+.contenedor img {
+        width: initial;
+
+}
+
+.button {
+
+        background-color: var(--color-neutral2);
+        padding: .7em 1.5em;
+        margin: .8em 0em;
+        border-radius: var(--border-radius);
+        border-color: solid;
+        var(--color-neutral2);
+        width: 0.5em;
+}
+
+.button:hover {
+        transition-property: all;
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+        background-color: transparent;
+
+}
+
+.sedans {
+        color: var(--color-primario);
+}
+
+.suvs {
+        color: var(--color-primario2);
+}
+
+.luxu {
+        color: var(--color-primario3);
+}
+
+/*diseño desktop*/
+@media (min-width:800px) {
+        .mibody {
+                display: flex;
+                min-height: 100vh;
+                min: width 60px;
+        }
+
+        .contenedor1 {
+                border-radius: var(--border-radius1) 0 0 var(--border-radius1);
+        }
+
+        .contenedor3 {
+                border-radius: 0 var(--border-radius1) var(--border-radius1) 0;
+        }
+
+}
